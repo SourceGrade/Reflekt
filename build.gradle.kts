@@ -12,4 +12,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("reflect"))
+    implementation("org.mockito:mockito-core:4.2.0")
+    implementation("fr.inria.gforge.spoon:spoon-core:10.0.0")
+    implementation("org.junit.jupiter:junit-jupiter:5.8.2")
 }
